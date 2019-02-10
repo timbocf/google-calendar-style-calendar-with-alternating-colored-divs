@@ -1,0 +1,53 @@
+.ray {
+ height: 30px; width: 450px; line-height: 2em;
+padding-left:5%;}
+
+.ray:nth-child(1) {
+ background: #9999ff;
+  color: black;
+}
+
+.ray:nth-child(2) {
+  background: blue;
+  color: white;
+}
+
+.ray:nth-child(3) {
+ background: #9999ff;
+  color: black;
+}
+
+.ray:nth-child(4) {
+  background: blue;
+  color: white;
+}
+
+.ray:nth-child(5) {
+  background: #9999ff;
+  color: black;
+}
+
+.ray:nth-child(6) {
+  background: blue;
+  color: white;
+}
+
+.ray:nth-child(7) {
+  background: #9999ff;
+  color: black;
+}
+
+.ray:nth-child(8) {
+ background: blue;
+  color: white;
+}
+
+.ray:nth-child(9) {
+  background: #9999ff;
+  color: black;
+}
+
+.ray:nth-child(10) {
+  background: blue;
+  color: white;
+}

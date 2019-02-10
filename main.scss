@@ -1,0 +1,14 @@
+$total: 10; //Number of .ray divs in our html
+$light-blue: lighten(blue, 30%);
+
+.ray {
+  height: 30px;
+}
+
+//Add your for-loop here:
+@for $i from 1 through $total {
+  .ray:nth-child(#{$i}) {
+    background: if($i % 2 == 0, blue, $light-blue);
+    color: if($i % 2 == 0, white, black);
+  } 
+}
